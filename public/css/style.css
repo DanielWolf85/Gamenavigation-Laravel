@@ -1,0 +1,321 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  min-width: 320px;
+  color: #dfdede;
+  background: url(../img/main-bg.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 40px 0;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+h2 {
+  /*font-style: italic;*/
+  font-size: 25px;
+  font-family: 'Palatino linotype', 'Book Antiqua', Palatino, serif;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+a {
+  color: #dfdede;
+}
+a:hover {
+  color: #dfdede;
+  text-decoration: none;
+}
+
+.treasure {
+  color: #ff6!important;
+  /*background-color: #ff6;*/
+  border: 1px solid #ff6!important;
+  text-shadow: 2px 4px 9px black!important;
+  font-weight: normal!important;
+}
+.quest {
+  color: #3ff!important;
+  /*background-color: #3ff;*/
+  border: 1px solid #3ff!important;
+  text-shadow: 2px 4px 9px black!important;
+  font-weight: normal!important;
+}
+.secret {
+  color: black!important;
+  background-color: #ffd5ff;
+  text-shadow: 2px 4px 9px black!important;
+  font-weight: normal!important;
+}
+
+
+/* ====~~~ MAIN-INDEX ~~~========= */
+.black-container {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+/* ---~~~ slider ~~~--- */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 0;
+}
+.carousel-caption h5 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+  font-size: 15px;
+}
+
+/* -----~~~ main-info ~~~----- */
+.main-info {
+  
+}
+
+/* ----~~~ last-gaming ~~~-----*/
+section.last-gaming {
+  /*background-color: rgba(0, 0, 0, 0.9);*/
+}
+section.last-gaming .last-gaming__card {
+  transition: all 0.4s;
+}
+section.last-gaming .last-gaming__card:hover {
+  transform: scale(1.05);
+}
+section.last-gaming .last-gaming__name {
+  font-size: 15px;
+  color: #09d5ed;
+}
+/*---~~~ catalog-button ~~~---*/
+
+.main-catalog-button button{
+  width: 45%;
+  padding: 20px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+/* ====~~~ ACT-INDEX ~~~========= */
+
+/* ==================== header ====================== */
+
+.main-header .navbar {
+  background-color: #34383c!important;
+  height: 76px;
+}
+
+.main-header .navbar a {
+  text-transform: uppercase;
+  color: #09d5ed;
+  transition: all 0.3s;
+}
+.main-header .navbar .navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+.main-header .navbar a:hover {
+  color: #fff;
+}
+.main-header .navbar .navbar-nav {
+  font-size: 14px;
+  font-weight: normal;
+}
+.main-header .navbar .navbar-toggler i {
+  color: #09d5ed;
+}
+
+
+/* ========== title ========== */
+.title {
+  background-color: rgba(8, 193, 215, 0.9);
+  
+}
+.title h1 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+/* ======== content ==========*/
+.content {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.content .chapter-image {
+  margin: 30px auto;
+}
+.content  img {
+  border: 1px solid rgba(69, 69, 69, 0.8);
+}
+
+
+/* ======== info ============*/
+.content .paragraph {
+  /*background-color: rgba(69, 69, 69, 0.5);*/
+  background-color: rgba(8, 193, 215, 0.6);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content .paragraph-info {
+  /*background-color: rgba(69, 69, 69, 0.5);*/
+  background-color: rgba(69, 69, 69, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content p {
+  text-shadow: 2px 4px 12px black!important;
+}
+.content .content__game-cover {
+  padding: 10px;
+}
+
+.content .content__game-info {
+  font-size: 12px;
+  color: #ccc;
+}
+.content .content__game-info p {
+
+  padding-left: 20px;
+}
+
+
+/* ======= content__nav ============ */
+.sidebar .nav .nav-link{
+  
+}
+.sidebar .nav .nav-link,
+.sidebar .nav .nav-link.active {
+  font-size: 13px;
+  padding: 3px 0 3px 10px;
+  
+  
+}
+
+.content__nav .nav .nav-link.active {
+
+}
+
+
+/* ========= content__info =========== */
+.content__info .tab-content .tab-pane {
+
+}
+
+/* ========= sidebar =============*/
+.sidebar {
+  /*background-color: rgba(0, 0, 0, 1);*/
+  background-color: rgba(0, 15, 0, 0.95);
+}
+.sidebar h5 {
+  padding-left: 10px;
+}
+.sidebar .nav .nav-link {
+  font-weight: normal;
+  color: #09d5ed;
+  /*color: #fff;*/
+}
+.sidebar .nav .nav-link:hover {
+  background-color: rgba(69, 69, 69, 0.4);
+  color: #fff;
+}
+.sidebar .nav .nav-link.active {
+  background-color: #09d5ed;
+  color: black;
+  font-weight: bold;
+}
+
+
+/*---~~~ footer ~~~--- */
+
+.footer {
+  background-color: #34383c;
+}
+
+
+
+/* ====================Media Queries====================== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .main-header .navbar .navbar-collapse {
+    background-color: black;
+    border: 1px solid #ccc;
+    color: #ccc;
+    z-index: 5;
+  }
+  .main-header .navbar .nav-link {
+    padding-left: 10px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  
+  section {
+    padding: 20px 0;
+  }
+  .main-info .main-info__text {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  
+}
+
+@media only screen and (max-width: 576px) {
+  
+}
+
+@media only screen and (max-width: 530px) {
+  .carousel-caption {
+
+  }
+  .carousel-caption h5 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .main-catalog-button button{
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 380px) {
+
+}
