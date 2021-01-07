@@ -32,7 +32,7 @@ class GamingController extends BaseController
             ->getLatestGames();
 
         return view('gaming.index', compact(
-            'latestGames',
+            'latestGames'
         ));
     }
 
